@@ -10,12 +10,18 @@ li {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 .container {
-  margin: 0;
+  width: 1140px;
+  margin: 0 auto;
   padding: 0;
 }
-
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
 /* ALL COMMON CSS END  */
 /* HEADER PART START  */
 #headerpart {
@@ -23,6 +29,8 @@ a {
   padding: 30px 0px;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
 }
 .logowithmenu {
   width: 1140px;
@@ -35,6 +43,7 @@ a {
 .menu ul {
   display: flex;
   column-gap: 20px;
+  align-items: center;
 }
 
 .hiremebtn {
@@ -52,21 +61,49 @@ a {
 /* HEADER PART END  */
 /* BANNER PART START  */
 
-#bannerpart{
-background: url(../images/banner.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding-top: 295px;
-padding-bottom: 185px;
-margin: 0 auto;
+#bannerpart {
+  background: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 295px;
+  padding-bottom: 185px;
 }
 
+.bannercontent h2 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+}
+.bannercontent h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+.bannercontent p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 585px;
+  padding-bottom: 35px
+}
+.bannercontent a {
+  background: #fd6e0a;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #fd6e0a;
+  padding: 18px 20px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all linear 1ms;
+}
 
-
-
-
-
-
+.bannercontent a:hover {
+  color: #181818;
+  background: transparent;
+}
 
 /* BANNER PART END  */
