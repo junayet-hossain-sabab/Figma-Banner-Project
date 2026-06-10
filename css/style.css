@@ -57,7 +57,8 @@ background: url(../images/banner.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 655px;
+padding-top: 295px;
+padding-bottom: 185px;
 }
 
 
