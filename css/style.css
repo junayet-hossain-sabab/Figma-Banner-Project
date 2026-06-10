@@ -17,9 +17,9 @@ a {
 }
 
 /* ALL COMMON CSS END  */
-
+/* HEADER PART START  */
 #headerpart {
-  background: #fff8f3;
+  /* background: #fff8f3; */
   padding: 30px 0px;
 }
 .logowithmenu {
@@ -47,3 +47,22 @@ a {
   font-weight: 700;
   font-size: 20px;
 }
+/* HEADER PART END  */
+/* BANNER PART START  */
+
+#bannerpart{
+background: url(../images/banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 655px;
+}
+
+
+
+
+
+
+
+
+/* BANNER PART END  */
